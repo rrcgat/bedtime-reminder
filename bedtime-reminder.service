@@ -1,0 +1,6 @@
+[Unit]
+Description=Bedtime Reminder Service
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/user/repo/bedtime-reminder/bedtime-reminder.sh
